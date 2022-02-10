@@ -4,10 +4,30 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: #000000;
+    font-family: sans-serif;
+}
 /* HEADER */
+header {
+    display: flex;
+    justify-content:  flex-end;
+
+    color: white;
+    font-size: 12px;
+}
+
+header div {
+    background-color: #4a4a4a;
+    padding: 5px;
+    border-radius: 5px;
+
+    margin: 5px;
+}
 /* / HEADER */
 
 /* MAIN */
+
 /* / MAIN */
 
 /* FOOTER */
