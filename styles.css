@@ -127,15 +127,33 @@ footer span {
     background-color: #4a4a4a;
     color: red;
     font-size: 12px;
-
     padding: 0 25px;
-
 
     display: flex;
     align-items: center;
-
-    
 }
 
 /* / FOOTER */
 
+/* Interactive */
+header div:hover {
+    background-color: white;
+    color: red;
+}
+
+main span:hover {
+   color: black;
+   font-size: 20px;
+}
+
+
+.footer-sx div:hover,
+.footer-center div:hover,
+.footer-sx div:hover {
+    color: red;
+}
+
+.footer-dx > p:hover {
+    background-color: white;
+    color: black;
+}
