@@ -8,6 +8,11 @@ body {
     background-color: #000000;
     font-family: sans-serif;
 }
+
+.container {
+    margin: 0 auto;
+    width: 90%; 
+}
 /* HEADER */
 header {
     display: flex;
@@ -21,13 +26,42 @@ header div {
     background-color: #4a4a4a;
     padding: 5px;
     border-radius: 5px;
-
     margin: 5px;
 }
 /* / HEADER */
 
 /* MAIN */
+main {
+    height: 80vh;
+    padding: 40px 0;
 
+    display: flex;
+    flex-wrap: wrap;    
+}
+
+main .img-center {
+    background-image: url("https://picsum.photos/1000/1000");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100% / 5);
+    width: calc(98% / 7);
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    align-content: center;    
+    
+    margin: 7px 2px;
+}
+
+main span {
+    background-color: rgba(109, 109, 109, 0.4);
+    color: white;
+    font-size: 11px;
+    
+    padding: 5px;
+
+}
 /* / MAIN */
 
 /* FOOTER */
